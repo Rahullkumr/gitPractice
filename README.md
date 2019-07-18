@@ -19,7 +19,7 @@ Final and the genuine answer: You don't have to give "origin
 Practice makes everyone perfect.
 
 About "git commit"
-	You have to use "-a" and -m "commit message" if it is not added to staging area
+	You have to use "-a" and -m "commit message" if the file being worked is not added to staging area
 where
 	-a = for all files in the working directory
 	-m = for the commit message or comment
