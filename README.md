@@ -17,3 +17,12 @@ Final and the genuine answer: You don't have to give "origin
 
 
 Practice makes everyone perfect.
+
+About "git commit"
+	You have to use "-a" and -m "commit message" if it is not added to staging area
+where
+	-a = for all files in the working directory
+	-m = for the commit message or comment
+
+If u wanna add only few files to the repository,then add those to the staging area.
+By using " git add" command and finally commit.
