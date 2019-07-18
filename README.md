@@ -15,7 +15,7 @@ GitHub because "git clone" automatically adds the remote "origin".
 If u have a local folder and transformed it to Repo then that is necessary.
 
 
-#Practice makes everyone perfect.
+# Practice makes everyone perfect.
 
 About "git commit"
 	You have to use "-a" and -m "commit message" if the file being worked is not added to staging area
