@@ -9,3 +9,6 @@ I think its only "git push" Not "git push origin master".
 
 No, you have to give the full command "git push remoteName branchName".
 Otherwise that will not be accepted.
+
+
+Practice makes everyone perfect.
