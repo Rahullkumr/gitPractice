@@ -4,9 +4,30 @@ This file contains all the mcq that were asked in the Coursera Course.
 ## Module 1
 
 <details>
-	<summary>Accordion 1</summary>
+	<summary><h2>Module 1</h2></summary>
 	<div>
 		This is the content of the accordion 1.
+	</div>
+</details>
+
+<details>
+	<summary>Accordion 2</summary>
+	<div>
+		This is the content of the accordion 2.
+	</div>
+</details>
+
+<details>
+	<summary>Accordion 3</summary>
+	<div>
+		This is the content of the accordion 3.
+	</div>
+</details>
+
+<details>
+	<summary>Accordion 4</summary>
+	<div>
+		This is the content of the accordion 4.
 	</div>
 </details>
 
