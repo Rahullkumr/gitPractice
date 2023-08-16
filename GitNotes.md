@@ -1,7 +1,71 @@
-Git: 
+# Git notes
+
+## Git: 
 - git is a program that tracks changes made to a file
 - git stands for global information tracker
 - git is a version control system
-- .git is the folder where all the changes are stored as history,
+- .git folder inside a project, tracks all changes made over time,
   if you delete this folder the information of changes-made will be gone.
-- 
+
+## Typical git workflow
+1. making changes
+2. Staging changes
+3. commiting changes
+
+## Staging area:
+
+```
+The /index folder inside the .git/ folder that contains the changes added through staging
+```
+
+# commit:
+```
+commits are stored in the /objects folder in the .git/ folder.
+Each commit has a unique ID number or 'SHA'
+```
+
+### each commit becomes a snapshot in that point of time which finaly forms a repo history.
+
+If you made a typing error in the message during commiting, then it can be corrected by the following:
+```diff
+git commit --amend -m 'typo corrected'
+```
+
+## diff:
+``` git diff main.py app.py```
+- takes two datasets and tells the difference between them. Dataset can be files, commits, brances or tags.
+- added lines are highlighted as green and deleted as red
+
+## Revert/undo a commit
+```
+git revert <commit>
+git revert 45111a
+```
+
+## Git Branching Strategy
+
+The main idea behind branching is to isolate your work into different types of branches.
+There are five different branch types in total:
+
+- Main / Master (outdated term)
+- Develop
+- Feature
+- Release
+- Hotfix
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
