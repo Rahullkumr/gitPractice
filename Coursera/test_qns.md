@@ -4,32 +4,8 @@ This file contains all the mcq that were asked in the Coursera Course.
 ## Module 1
 
 <details>
-	<summary><h2>Module 1</h2></summary>
-	<div>
-		This is the content of the accordion 1.
-	</div>
-</details>
-
-<details>
-	<summary>Accordion 2</summary>
-	<div>
-		This is the content of the accordion 2.
-	</div>
-</details>
-
-<details>
-	<summary>Accordion 3</summary>
-	<div>
-		This is the content of the accordion 3.
-	</div>
-</details>
-
-<details>
-	<summary>Accordion 4</summary>
-	<div>
-		This is the content of the accordion 4.
-	</div>
-</details>
+	<summary>Module 1</summary>
+	
 
 1. Your colleague sent you a patch called fix_names.patch, which fixes a config file called fix_names.conf. What command do you need to run to apply the patch to the config file?
 
@@ -44,18 +20,18 @@ This file contains all the mcq that were asked in the Coursera Course.
 
 ```diff
 + diff fix_permissions.py fix_permissions_modified.py > fix_permissions.patch
-patch fix_permissions.py < fix_permissions_modified.py
-patch fix_permissions.py > fix_permissions.patch
-diff fix_permissions.py fix_permissions.diff
+ patch fix_permissions.py < fix_permissions_modified.py
+ patch fix_permissions.py > fix_permissions.patch
+ diff fix_permissions.py fix_permissions.diff
 ```
 
 3. The _____ command highlights the words that changed in a file instead of working line by line.
 
 ```diff
-diff
-diff -u
-wdiff
-patch
+ diff
+ diff -u
+ wdiff
+ patch
 ```
 
 4. How can we choose the return value our script returns when it finishes?
@@ -165,6 +141,30 @@ git clone
 git config -l
 git log
 ```
+
+
+</details>
+
+<details>
+	<summary>Module 2</summary>
+	
+
+
+</details>
+
+<details>
+	<summary>Module 3</summary>
+	
+
+
+</details>
+
+<details>
+	<summary>Module 4</summary>
+	
+
+
+</details>
 
 ## Module 2
 1. Which of the following commands is NOT an example of a method for comparing or reviewing the changes made to a file?
