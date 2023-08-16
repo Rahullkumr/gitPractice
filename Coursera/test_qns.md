@@ -1,4 +1,4 @@
-# Introduction to Git and GitHub (Google)
+# Introduction to Git and GitHub (Coursera/Google)
 This file contains all the mcq that were asked in the Coursera Course.
 
 <details>
@@ -29,14 +29,14 @@ This file contains all the mcq that were asked in the Coursera Course.
 ```diff
  diff
  diff -u
- wdiff
++ wdiff
  patch
 ```
 
 4. How can we choose the return value our script returns when it finishes?
 
 ```diff
-Using the exit command from the sys module
++ Using the exit command from the sys module
 Use the patch command
 Use the diff command 
 Use meld
@@ -45,7 +45,7 @@ Use meld
 5. In addition to the original files, what else do we need before we can use the patch command?
 
 ```diff
-Diff file
++ Diff file
 exit command of the sys module
 Version control
 Full copy of the new files
@@ -226,7 +226,7 @@ Use the git commit --amend command instead
 To secure project backups
 To guarantee the consistency of our repository
 To encrypt passwords
-To identify commits
++ To identify commits
 ```
 
 9. What does the command git commit --amend do?
@@ -449,7 +449,7 @@ git fetch
 
 ```diff
 Squash deletes previous commits.
-Squash combines the commit messages into one. Fixup discards the new commit message.
++ Squash combines the commit messages into one. Fixup discards the new commit message.
 Squash only works on Apple operating systems.
 Fixup combines the commit messages into one. Squash discards the commit message.
 ```
@@ -558,9 +558,9 @@ An automated series of tests that run each time there is a new commit or pull re
 
 ```diff
 Coordinate solely via email
-Reply promptly to pull-requests
-Understand any changes you accept
-Use an issue tracker 
++ Reply promptly to pull-requests
++ Understand any changes you accept
++ Use an issue tracker 
 ```
 
 14. Which statement best represents what a Continuous Integration system will do?
