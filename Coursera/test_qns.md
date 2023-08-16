@@ -476,7 +476,6 @@ When there are too many branches.
 
 ```diff
 + git push -f
-	> git push with the -f flag forcibly replaces the old commits with the new one and forces Git to push the current snapshot to the repo as it is. This can be dangerous as it can lead to remote changes being permanently lost and is not recommended unless you're pushing fixes to your own fork (nobody else is using it) such as in the case after doing interactive rebasing to squash multiple commits into one as demonstrated.
 git log --graph --oneline --all
 git status 
 git rebase -i
