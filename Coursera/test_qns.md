@@ -4,12 +4,10 @@ This file contains all the mcq that were asked in the Coursera Course.
 ## Module 1
 
 <details>
-<summary>Accordion 1</summary>
-<p>This is the content of the accordion 1.</p>
-<details>
-<summary>Accordion 2</summary>
-<p>This is the content of the accordion 2.</p>
-</details>
+	<summary>Accordion 1</summary>
+	<div>
+		This is the content of the accordion 1.
+	</div>
 </details>
 
 1. Your colleague sent you a patch called fix_names.patch, which fixes a config file called fix_names.conf. What command do you need to run to apply the patch to the config file?
