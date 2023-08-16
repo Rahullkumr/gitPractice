@@ -1,12 +1,11 @@
 # Introduction to Git and GitHub (Google)
 This file contains all the mcq that were asked in the Coursera Course.
 
-## Module 1
-
 <details>
-	<summary>Module 1</summary>
+	<summary>
+		<h2>Module 1</h2>
+	</summary>
 	
-
 1. Your colleague sent you a patch called fix_names.patch, which fixes a config file called fix_names.conf. What command do you need to run to apply the patch to the config file?
 
 ```diff
@@ -141,32 +140,23 @@ git clone
 git config -l
 git log
 ```
-
-
 </details>
+
+
+
+
+
+
+
+
+
 
 <details>
-	<summary>Module 2</summary>
+	<summary>
+		<h2>Module 2</h2>
+	</summary>
 	
 
-
-</details>
-
-<details>
-	<summary>Module 3</summary>
-	
-
-
-</details>
-
-<details>
-	<summary>Module 4</summary>
-	
-
-
-</details>
-
-## Module 2
 1. Which of the following commands is NOT an example of a method for comparing or reviewing the changes made to a file?
 
 ```diff
@@ -299,9 +289,22 @@ git checkout -b <branch>
 +     print("End of program!")
 + main()
 ```
+</details>
 
-## Module 3
 
+
+
+
+
+
+
+
+
+<details>
+	<summary>
+		<h2>Module 3</h2>
+	</summary>
+	
 1. When we want to update our local repository to reflect changes made in the remote repository, which command would we use?
 
 ```diff
@@ -426,9 +429,22 @@ git pull
 + git rebase <branchname>
 git fetch
 ```
+</details>
 
-## Module 4
 
+
+
+
+
+
+
+
+
+<details>
+	<summary>
+		<h2>Module 4</h2>
+	</summary>
+	
 1. What is the difference between using squash and fixup when rebasing?
 
 ```diff
@@ -564,3 +580,5 @@ Run tests automatically
 Assign issues and track who's doing what
 Specify the steps that need to run to get the result you want
 ```
+</details>
+
