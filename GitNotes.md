@@ -3,7 +3,8 @@
 ## Git: 
 - git is a program that tracks changes made to a file
 - git stands for global information tracker
-- git is a distributed version control system (other two are: localised vc and centralised vc)
+- git is a distributed version control system
+  >(other two are: localised vc (own laptop) and centralised vc (in an institute/company))
 - .git folder inside a project, tracks all changes made over time,
   if you delete this folder the information of changes-made will be gone.
 
