@@ -8,6 +8,7 @@
 - `cd` go to Parent directory
 - `cd directoryName` change directory
 - `cd ..` go back one directory
+
 - `pwd` print present working directory
 - `rm fileName` ➡ delete file
 - `rm  -r folderName` ➡ delete folder
@@ -22,8 +23,7 @@
 
 - `i` Enter insert mode
 - `esc` exit insert mode
-- `:wq` Save and quit Vim
-
+- `:wq ➡ Save and quit Vim`
 - `:w` Save file
 - `:q` Quit Vim editor
 - `:q!` Quit Vim without saving
