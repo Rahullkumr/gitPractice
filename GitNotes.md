@@ -18,7 +18,15 @@
 - `cat > file.ext` enter input & (ctrl+d and ctrl+d) to save and exit (OVERRIDES)
 - `cat >> file.ext` enter input & (ctrl+d and ctrl+d) to save and exit (APPENDS)
 
+## Basic Vim Commands
 
+- `i` Enter insert mode
+- `esc` exit insert mode
+- `:wq` Save and quit Vim
+
+- `:w` Save file
+- `:q` Quit Vim editor
+- `:q!` Quit Vim without saving
 
 
 ## Git: 
