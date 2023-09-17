@@ -8,7 +8,6 @@
 - `cd` go to Parent directory
 - `cd directoryName` change directory
 - `cd ..` go back one directory
-
 - `pwd` print present working directory
 - `rm fileName` ➡ delete file
 - `rm  -r folderName` ➡ delete folder
