@@ -28,7 +28,7 @@
 - `:q!` Quit Vim without saving
 
 
-## Git: 
+# Git: 
 - git is a program that tracks changes made to a file
 - git stands for global information tracker
 - git is a distributed version control system
