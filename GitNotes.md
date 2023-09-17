@@ -1,5 +1,26 @@
 # Git notes
 
+## Basic Linux Commands: 
+
+- `ls -la folderName` ➡ formatted listing of files and folders also hidden files inside folderName 
+- touch fileName.ext ➡ create new file
+- mkdir folderName ➡ create new folder
+- cd directoryName ➡ change directory
+- cd ➡ go to Parent directory
+- cd .. ➡ go back one directory
+- pwd ➡ print present working directory
+- rm fileName ➡ delete file
+- rm  -r folderName ➡ delete folder
+- cp file1.extnsn file2.extnsn ➡ copy file1 to file2
+- mv oldName.extn newName.extn ➡ rename oldName to newName
+- mv file1.ext folderwa/lol.md ➡ move file1 to folderwa as lol.md
+- cat file1 ➡ print contents of file1
+- cat > file.ext ➡ give input & (ctrl+d and ctrl+d) to save and exit (OVERRIDES)
+- cat >> file.ext ➡ give input & (ctrl+d and ctrl+d) to save and exit (APPENDS)
+
+
+
+
 ## Git: 
 - git is a program that tracks changes made to a file
 - git stands for global information tracker
@@ -53,20 +74,3 @@ There are five different branch types in total:
 - Feature
 - Release
 - Hotfix
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
