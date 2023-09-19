@@ -83,8 +83,7 @@ There are five different branch types in total:
 - Hotfix
 
 ----
-
-## Git Commands
+# Git Commands
 
 `git init` Initialize the folder for git commands
 
@@ -99,6 +98,10 @@ There are five different branch types in total:
 
 `git log -5` gives latest 5 commit history
 `git log --oneline` gives history of commits in brief in 1 line
+
+`git log --oneline main..second_branch` display commits that are in `second_branch` but not in `main` branch 
+➡ how far `second_branch` is ahead of the `main` branch.
+> how far is main branch ==> just swap `second_branch..main`
 
 
 `git branch branchName`  creates a new branch
@@ -116,7 +119,6 @@ STASH (like temp variable):
 `git stash pop` come to front from backstage
 `git stash clear` clear backstage people
 
-`fork ➡ copy a repository (only using GitHub)`
 
 `GIT UNDOs`
 `git revert HEAD` ➡ go back one commit after opening editor
@@ -136,17 +138,70 @@ STASH (like temp variable):
 	> Use multiple remotes to keep your development, staging, and production environments separate. Push changes to each environment independently.
 
 `git remote add remoteName url` (default = origin) create a new remote entry in repository's .git/config file.
+`git remote remove remoteName` delete a remote 
 `git remote -v` lists all remotes along with their URLs
 `git log --remotes` list of commits done from different REMOTES
 
 
 `git push remoteName branchName` push committed changes to the GitHub repository
 
-Sync (bring) all commits made on the upstream to your repository 
-	Technique1:
-		Step1 ➡ git fetch --all --prune
-			--all => all branches
-			--prune => deleted also
-		Step2 ➡ reset main branch of origin to the main branch of upstream (git reset --hard upstream/main)
-	Technique2 (recommended):
-		git pull upstream main
+## Sync (bring) all commits made on the upstream to local repository 
+
+* GIT FETCH
+- used to fetch changes (commits, branches, tags, etc.) from upstream without automatically merging or applying those changes to current local branch.
+
+`git fetch --all --prune` 
+
+> --all => all branches and all remotes
+> --prune => deleted also
+
+- Options after fetching:
+	> 1. Reset: `git reset --hard remoteName/branchName` reset the local branch with remote branch(LOCAL K SAARE COMMITS CHU MANTAR[very dangerous])
+	> 2. Rebase: `git rebase origin/main` local branch gets rebased to remote branch "origin/main" (if no conflict else JHANJHAT)
+	> 3. Merge: `git merge origin/main` local branch gets merged with remote branch "origin/main" (if no conflict else JHANJHAT)
+	> 4. `git log --oneline main..second_branch` how far `second_branch` is ahead of the `main` branch.
+
+
+* GIT PULL (RECOMMENDED)
+`git pull remoteName branchName` 
+- used to fetch changes from remote repository and automatically merge them into local current branch
+> Internally it does => "git fetch then git merge"
+
+## SQUASHING 
+- used to combine multiple commits into a single
+- useful for feature branches where you might have made many small, incremental commits during development
+- good to squash commits before creating a PR to maintain clean history for the main branch.
+ 
+ steps:
+ ```
+ - use log, note down to-be-changed commits hash
+ - `git rebase -i HEAD~n` i=interactive n=how many commits including HEAD(most recent commit)
+ - new editor opens, change "pick" => squash but leave first as it is, save and exit
+ - new editor opens, give meaningful commit msg on first line only, don't touch other lines, save and exit
+ - REBASE success, if no conflicts present
+ - force push to remote repo: `git push -f`
+
+ ```
+
+
+
+## Force Push [REMOTE K SAARE COMMITS CHU MANTAR, VERY DANGEROUS]
+
+`git push origin branchName -f`
+
+- Overwrites remote branch's history with local branch's history. This means that any commits on the remote branch that are not on the local branch will be deleted from the remote branch.
+- very useful, Removing a commit from the pull request
+
+```diff
+- merge vs rebase (two ways of Integration)
++ merge makes commit history dirty
++ rebase keeps commit history clean
+
+- merge conflict
++ multiple people modified same line and requested for pull request 
+
+- resolve merge conflict ➡ only using GitHub
+- Pull Request ➡ only using GitHub
+- fork a repository ➡ only using GitHub
+
+```
