@@ -1,3 +1,7 @@
+<center>
+	<img src = 'gitCert.png'>
+</center><br><br>
+
 # Introduction to Git and GitHub (Coursera/Google)
 This file contains all the mcq that were asked in the Coursera Course.
 
