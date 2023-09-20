@@ -33,6 +33,8 @@
 
 -----------------------------------
 
+<img src="https://greater.nl/wp-content/uploads/2021/12/git.jpeg">
+
 ## GIT 
 
 - git is a program that tracks changes made to a file
@@ -42,10 +44,13 @@
 - `.git folder` inside a project, tracks all changes made over time,
   if you delete this folder the information of changes-made will be gone.
 
+<img height=300 src="https://geo-python.github.io/site/2018/_images/Git_illustration.png">
+
 ## GIT WORKFLOW
+
 1. Making changes
 2. Staging changes
-3. Commiting changes
+3. Commiting changes<br><br>
 
 ## STAGING AREA
 
@@ -116,6 +121,7 @@
 - `git stash pop` come to front from backstage
 - `git stash clear` clear stash area (clear backstage people)
 
+<img height=300 src="https://i.imgflip.com/6rzn1t.jpg">
 
 ## GIT UNDOs
 
