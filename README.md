@@ -32,6 +32,7 @@
 - `:q!` Quit Vim without saving
 
 -----------------------------------
+
 ## GIT 
 
 - git is a program that tracks changes made to a file
@@ -42,37 +43,31 @@
   if you delete this folder the information of changes-made will be gone.
 
 ## GIT WORKFLOW
-1. making changes
+1. Making changes
 2. Staging changes
-3. commiting changes
+3. Commiting changes
 
 ## STAGING AREA
 
-- A concept in git, where the changes are kept before commiting
+- A concept in git, where the changes are stored before commiting
 
 - The `index`(a binary file) inside `.git/` folder contains the changes added through staging
 
 
 ## GIT COMMIT
 
-- commits are stored in the `objects` folder in the `.git/` folder
+- Commits are stored in the `objects` folder in the `.git/` folder
 - Each commit has a unique ID number or 'SHA'
 	> each commit becomes a snapshot in that point of time which finaly forms a repo history
 
 - If you made a typing error in the msg during commiting, then it can be corrected by the following:
-	```diff
+	```
 	git commit --amend -m 'typo corrected'
 	```
 
-## diff:
-``` git diff main.py app.py```
-- takes two datasets and tells the difference between them. Dataset can be files, commits, brances or tags.
-- added lines are highlighted as green and deleted as red
-
-
 ## BRANCHING STRATEGIES
 
-- The main idea behind branching is to isolate your work into different types of branches.
+- The main idea behind branching is to isolate your work into different types of branches
 
 - There are five different branch types in total:
 	- Main / Master (outdated term)
@@ -243,4 +238,5 @@
 - resolve merge conflict ➡ only using GitHub
 - Pull Request ➡ only using GitHub
 - fork a repository ➡ only using GitHub
+- difference b/w two commits ➡ only using GitHub
 ```
