@@ -127,9 +127,10 @@
 
 #### 1. REVERT
 
------------------------ `git revert hashvalue`
-- `git revert HEAD` ➡ undo 1 commit after opening editor
-- `git revert HEAD --no-edit` undo 1 commit without opening editor
+- `git revert hashvalue` 
+	> opens editor, creates new commit: undoing changes made by hashvalue(commit) 
+- `git revert HEAD` ➡ undo last commit after opening editor
+- `git revert HEAD --no-edit` undo last commit without opening editor
 	> used when we want to take a previous commit and add it as a new commit, keeping the log intact
 
 #### 2. AMEND 
