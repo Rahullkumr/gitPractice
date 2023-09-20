@@ -1,4 +1,5 @@
-<center><img alt = "Git Banner" src = "banner.png"></center>
+<center><img alt = "Git Banner" src = "./images/banner.png"></center>
+
 <h4 align='center'>
 	<a href = "https://github.com/Rahullkumr/gitPractice/blob/master/Coursera/test_qns.md">Git Coursera MCQ</a>
 </h4>
@@ -32,8 +33,9 @@
 - `:q!` Quit Vim without saving
 
 -----------------------------------
-
+<center>
 <img src="https://greater.nl/wp-content/uploads/2021/12/git.jpeg">
+</center>
 
 ## GIT 
 
@@ -44,7 +46,9 @@
 - `.git folder` inside a project, tracks all changes made over time,
   if you delete this folder the information of changes-made will be gone.
 
+<center>
 <img height=300 src="https://geo-python.github.io/site/2018/_images/Git_illustration.png">
+</center>
 
 ## GIT WORKFLOW
 
@@ -60,6 +64,10 @@
 
 
 ## GIT COMMIT
+
+<center>
+ <img src="https://media.tenor.com/Rla0OOGUv4IAAAAC/git-commit.gif">
+</center>
 
 - Commits are stored in the `objects` folder in the `.git/` folder
 - Each commit has a unique ID number or 'SHA'
@@ -121,8 +129,9 @@
 - `git stash pop` come to front from backstage
 - `git stash clear` clear stash area (clear backstage people)
 
+<center>
 <img height=300 src="https://i.imgflip.com/6rzn1t.jpg">
-
+</center>
 ## GIT UNDOs
 
 #### 1. REVERT
@@ -184,6 +193,11 @@
 
 	> 4. `git log --oneline main..second_branch` how far `second_branch` is ahead of the `main` branch.
 
+<center><img alt = "Git merge" src = "./images/merge.gif"></center><br>
+
+<center><img alt = "Git merge" src = "./images/reset.jpg"></center>
+
+
 #### 2. GIT PULL (RECOMMENDED)
 
 - `git pull remoteName branchName` 
@@ -218,6 +232,10 @@
 
 
 ## GIT PUSH
+
+<center>
+<img height=300 src="./images/pushf.webp">
+</center>
 
 #### 1. Normal Push
 
