@@ -1,4 +1,6 @@
-# Git notes
+<!-- <h1 align="center">Git notes</h1> -->
+<img alt = "Git Banner" src = "banner.png">
+
 
 ## Basic Linux Commands: 
 
