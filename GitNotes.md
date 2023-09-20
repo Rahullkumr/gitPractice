@@ -1,5 +1,6 @@
-<!-- <h1 align="center">Git notes</h1> -->
 <img alt = "Git Banner" src = "banner.png">
+
+<h4 align="center"><a href = "https://github.com/Rahullkumr/gitPractice/blob/master/Coursera/test_qns.md">Git Coursera MCQ</a></h4>
 
 
 ## Basic Linux Commands: 
