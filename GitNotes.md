@@ -1,7 +1,10 @@
-<img alt = "Git Banner" src = "banner.png">
-
-<h4 align="center"><a href = "https://github.com/Rahullkumr/gitPractice/blob/master/Coursera/test_qns.md">Git Coursera MCQ</a></h4>
-
+<center>
+	<img alt = "Git Banner" src = "banner.png">
+	<br><br>
+	<a href = "https://github.com/Rahullkumr/gitPractice/blob/master/Coursera/test_qns.md">
+		Git Coursera MCQ
+	</a>
+</center>
 
 ## Basic Linux Commands: 
 
