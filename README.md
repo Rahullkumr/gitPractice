@@ -77,6 +77,7 @@
 	```
 	git commit --amend -m 'typo corrected'
 	```
+ 	> This also applies everything present inside staging area to the last commit
 
 ## BRANCHING STRATEGIES
 
