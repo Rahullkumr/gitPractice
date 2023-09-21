@@ -144,16 +144,24 @@
 - `git revert HEAD --no-edit` undo last commit without opening editor
 	> used when we want to take a previous commit and add it as a new commit, keeping the log intact
 
-#### 2. AMEND 
-
-- `git commit --amend -m 'typo corrected'` correct spelling error of last commit
-
-#### 3. RESET 
+#### 2. RESET 
 
 - `git reset hashvalue/commitvalue`
 	> used to move the repository back to a previous commit, unstaging any changes made after that commit
 - suppose it's Friday and you want to reset the branch as it was on Tuesday
 
+## GIT REDO
+
+#### AMEND A COMMIT
+
+> helps to update/change/amend/modify last commit along with new commit hash <br>
+> This can be useful for fixing commit message or for adding or removing files from the commit
+
+- `git commit --amend -m 'typo corrected'` whatever present in staging area gets applied to last commit
+
+```diff
+- Don't use `git commit --amend`, if already pushed the commit to a shared branch.
+```
 
 ## REMOTE
 
