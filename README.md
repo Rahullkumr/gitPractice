@@ -95,7 +95,8 @@
 
 ## BASIC
 - `git init` Initializes the folder for git commands
-- `git clone url` copy a GitHub repo to local machine
+- `git clone url` copy a GitHub repo to local machine, other branches hidden except main
+- `git clone -b branchName --single-branch url` clone a specific branch
 - `git status` gives list of tracked(green) and untracked(red) files (staging area)
 - `git add .` adds all files to staging area
 - `git restore --staged filename.extension` remove from staging area
@@ -158,7 +159,8 @@
 > helps to update/change/amend/modify last commit along with new commit hash <br>
 > This can be useful for fixing commit message or for adding or removing files from the commit
 
-- `git commit --amend -m 'typo corrected'` whatever present in staging area gets applied to last commit
+- `git commit --amend -m 'typo corrected'`
+- whatever present in staging area gets applied to last commit, if nothing present, only msg gets overridden 
 
 ```diff
 - Don't use `git commit --amend`, if already pushed the commit to a shared branch.
