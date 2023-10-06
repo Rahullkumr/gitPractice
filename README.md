@@ -82,12 +82,42 @@
 
 - The main idea behind branching is to isolate your work into different types of branches
 
-- There are five different branch types in total:
-	- Main / Master (outdated term)
-	- Develop
-	- Feature
-	- Release
-	- Hotfix
+- There are six different branch types:
+	- `Main / Master` (outdated term)
+	- `Develop` for development of the project
+	- `Feature` for adding, refactoring or removing a feature
+	- `Hotfix` for changing code with a temporary solution because of an emergency
+	- `Bugfix` for fixing a bug
+   	- `Test` for experimenting outside of an issue/ticket
+- Examples
+	- to add, refactor or remove a feature
+		> `git branch feature/issue-42/create-new-button-component` 
+ 	- to fix a bug
+		> `git branch bugfix/issue-342/button-overlap-form-on-mobile`
+	- to fix a bug really fast (possibly with a temporary solution)
+  		> `git branch hotfix/no-ref/registration-form-not-working`
+	- to experiment outside of an issue/ticket
+ 		> `git branch test/no-ref/refactor-components-with-atomic-design`
+
+## COMMITING STRATEGIES
+
+- [reference](https://dev.to/varbsan/a-simplified-convention-for-naming-branches-and-commits-in-git-il4)
+- A commit message should start with a category of change.
+- There are mainly 4 categories:
+	- `feat` for adding a new feature
+	- `fix` for fixing a bug
+	- `refactor` for changing code for peformance or convenience purpose (e.g. readibility)
+	- `chore` for everything else (writing documentation, formatting, adding tests, cleaning useless code etc.)
+- Examples
+
+  ```
+  - git commit -m 'feat: add new button component; add new button components to templates'
+  - git commit -m 'fix: add the stop directive to button component to prevent propagation'
+  - git commit -m 'refactor: rewrite button component in TypeScript'
+  - git commit -m 'chore: write button documentation'
+  ```
+
+
 -------------------------------------------------------
 
 <h1 align="center">GIT COMMANDS</h1>
