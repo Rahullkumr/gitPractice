@@ -147,6 +147,7 @@
 - `git branch`  gives list of all branches
 - `git branch branchName`  creates a new branch
 - `git branch -d branchName` deletes the branch
+- `git push origin --delete branch_name` delete a branch on GitHub that already deleted locally
 - `git checkout branchName` go inside branchName
 	> different branches for different features => because 1 branch allows only 1 pull request
 
