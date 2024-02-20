@@ -64,10 +64,6 @@
 
 ## GIT COMMIT
 
-<center>
- <img src="https://media.tenor.com/Rla0OOGUv4IAAAAC/git-commit.gif">
-</center>
-
 - Commits are stored in the `objects` folder in the `.git/` folder
 - Each commit has a unique ID number or 'SHA'
 	> each commit becomes a snapshot in that point of time which finaly forms a repo history
@@ -145,6 +141,8 @@
 
 ## GIT BRANCH
 - `git branch`  gives list of all branches
+- `git branch -r`  gives list of all remote branches
+- `git branch -a`  gives list of all local + remote branches
 - `git branch branchName`  creates a new branch
 - `git branch -d branchName` deletes the branch
 - `git push origin --delete branch_name` delete a branch on GitHub that already deleted locally
@@ -280,6 +278,10 @@
 
 ## GIT PUSH
 
+<center>
+ <img src="https://media.tenor.com/Rla0OOGUv4IAAAAC/git-commit.gif">
+</center>
+<br>
 <center>
 <img height=300 src="./images/pushf.webp">
 </center>
