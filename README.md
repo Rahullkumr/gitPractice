@@ -148,6 +148,10 @@
 - `git push origin --delete branch_name` delete a branch on GitHub that already deleted locally
 - `git checkout branchName` go inside branchName
 	> different branches for different features => because 1 branch allows only 1 pull request
+- `git switch -c feat` creates a new **feat** branch from your current branch and goes inside it.
+	> works in newer versions of Git (2.23+)
+- `git switch -c feat main` creates a new **feat** branch from **main** and goes inside it.
+  	> if you are in different branch (say dev) and want to create a feat branch from main without going inside main.
 
 ## STASH AREA (like temp variable): 
 
